@@ -20,8 +20,7 @@
       justify-content: space-between;
       font-family: 'Open Sans', sans-serif;
       justify-content: flex-start;
-      cursor: pointer; 
-      width: 100px;
+      cursor: pointer; /* Adicione o cursor pointer para indicar que é clicável */
     }
 
     .audio-container img {
@@ -30,7 +29,6 @@
       border-radius: 50%;
       object-fit: cover;
       padding-right: 8px;
-      padding-left: 10px;
     }
 
     .audio-container .microphone-icon {
@@ -61,7 +59,6 @@
       color: #4a5464;
       color: var(--plyr-audio-control-color,#4a5464);
       margin-left: 0px;
-      padding: 0px;
     }
 
     .plyr--audio .plyr__control--overlaid .plyr__control__icon {
@@ -107,6 +104,7 @@
       margin-right: var(--plyr-control-spacing);
     }
 
+    /* Ocultar os controles de tempo */
     .plyr--audio .plyr__controls .plyr__controls__item.plyr__time--current.hide,
     .plyr--audio .plyr__controls .plyr__controls__item.plyr__time--duration.hide {
       display: none;
@@ -117,7 +115,7 @@
 <body>
   <div class="audio-container" id="audioContainer">
     <!-- Cole o link do Seu áudio Abaixo-->
-    <audio class="plyr" src="https://s3.typebot.io/public/workspaces/clof06ref0022m50f7h6qjbpd/typebots/clof0dczq000bl80frfkz0oq5/blocks/o42zayvry7s61pdlgnq6po5i?v=1699293242353"></audio>
+    <audio class="plyr" src="https://s3.typebot.io/public/workspaces/clof06ref0022m50f7h6qjbpd/typebots/clof0dczq000bl80frfkz0oq5/blocks/mau7ht37t61vwrxgpjh4r4zi?v=1699300736091"></audio>
     <!-- Cole o link da Sua imagem Abaixo-->
     <img src="https://s3.typebot.io/public/workspaces/clof06ref0022m50f7h6qjbpd/typebots/clof0dczq000bl80frfkz0oq5/hostAvatar?v=1698801108537" alt="Imagem">
     <div class="microphone-icon">
